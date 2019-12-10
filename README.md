@@ -17,19 +17,19 @@ A [Gmail](https://mail.google.com/) account and [Go](https://golang.org/) at lea
 Clone the repository
 
 ```
-git clone git@github.com:orlmonteverde/send-email-gmail.git
+git clone https://github.com/generous-folks/go-gmail-server.git
 ```
 
 Enter the repository folder
 
 ```
-cd send-email-gmail
+cd go-gmail-server
 ```
 
 Build the binary
 
 ```
-go build
+go build -o send-email-gmail .
 ```
 
 Run the program
